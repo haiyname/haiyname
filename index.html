@@ -13,10 +13,45 @@
 		 
 		 height:100%}
 	@keyframes myfirst{
-			 from{opacity:0}
-			 to{opacity:100}
+			 0%{opacity:0}
+			 20%{opacity:100}
+		40%{opacity:0}
+		80%{opacity:0}
+		100%{opacity:0}
 			 }
-			 h1,p{animation:myfirst 5s infinite}
+	@keyframes myone{
+			  0%{opacity:0}
+			 20%{opacity:0}
+		40%{opacity:100}
+		80%{opacity:0}
+		100%{opacity:0}
+			 }
+	@keyframes mytwo{
+			 0%{opacity:0}
+			 20%{opacity:0}
+		40%{opacity:0}
+		80%{opacity:100}
+		100%{opacity:0}
+			 }
+	@keyframes mythree{
+			 0%{opacity:0}
+			 20%{opacity:0}
+		40%{opacity:0}
+		80%{opacity:100}
+		100%{opacity:0}
+			 }
+	@keyframes myfoue{
+			 0%{opacity:0}
+			 20%{opacity:0}
+		40%{opacity:0}
+		80%{opacity:0}
+		100%{opacity:100}
+			 }
+			 h1{animation:myfirst 5s infinite}
+	#one{animation:myone 10s infinite}
+	#two{animation:mytwo 10s infinite}
+	#three{animation:mythree 10s infinite}
+	#foue{animation:myfoue 10s infinite}
 </style>
 </head>
 
@@ -24,10 +59,10 @@
 	<audio src="anjing.mp3" controls="controls" autoplay="autoplay">
 	</audio>	
 <h1>静夜思</h1>
-<p>床前明月光</p>
-<p>疑似地上霜</p>
-<p>举头望明月</p>
-<p>低头思故乡</p>
+<p id="one">床前明月光</p>
+<p id="two">疑似地上霜</p>
+<p id="three">举头望明月</p>
+<p id="foue">低头思故乡</p>
 
 </body>
 </html>
